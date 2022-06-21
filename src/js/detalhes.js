@@ -34,9 +34,8 @@ function getColor(vote) {
 function showMovieDetail(data) {
   const main = document.getElementById('main');
   const { title, release_date, genres, poster_path, backdrop_path, vote_average, overview,homepage, id } = data;
-  const movieEl = document.createElement('div');
 
-  movieEl.innerHTML = `
+  main.innerHTML = `
     <div class="movie-container" >
         <img src="${IMG_URL + poster_path}" alt="${title}">
       <div class="movie-details">
