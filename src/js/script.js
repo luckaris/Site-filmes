@@ -45,4 +45,6 @@ function getColor(vote) {
   }
 }
 
+
+
 getMovies(API_URL);
