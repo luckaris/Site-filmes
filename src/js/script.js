@@ -28,7 +28,7 @@ function showMovies(data) {
       <div class="overview">
           <h3>Overview</h3>
           <p>${overview}</p>
-          <a class="know-more" id="${id}"href="./src/pages/detalhes.html?id=${id}">Know More</a>
+          <a class="btn btn-outline-secondary" id="${id}"href="./src/pages/detalhes.html?id=${id}">Know More</a>
       </div>
         `
     main.appendChild(movieEl);
