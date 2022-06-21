@@ -43,7 +43,7 @@ function showMovieDetail(data) {
           <h1>${title}</h1>
           <div class="metadata">
             <h4>${release_date.split('-')[0]}</h4>
-            <h4>${vote_average} ★</h4>
+            <h4>${vote_average}★</h4>
             <h4>${genres.map(genre => genre.name).join(' / ')}</h4>
           </div>
           <p>${overview}</p>

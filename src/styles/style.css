@@ -73,10 +73,11 @@ main {
 .movie-info {
   color: #eee;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem 1rem;
+  align-items: center;
   letter-spacing: 0.5px;
+  padding: 0.5rem 1rem 1rem;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -87,10 +88,9 @@ main {
 }
 
 .movie-info span {
-  background-color: var(--primary-color);
-  padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-weight: bold;
+  margin-left: 0.5rem;
 }
 
 .movie-info span.green {
